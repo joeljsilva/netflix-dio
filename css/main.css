@@ -15,11 +15,13 @@ body {
 }
 
 /* Estilização do Header */
+.container {
+  padding: 20px;
+}
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
 }
 header nav a {
   text-decoration: none;
@@ -34,9 +36,7 @@ header nav a:hover {
 /* Filme Principal */
 .filme-principal {
   font-size: 1rem;
-  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../images/residencia_hill.jpg');
-
-  padding: 20px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../images/residencia_hill2.jpg');
   height: 400px;
   background-size: cover;
   display: flex;
@@ -80,4 +80,15 @@ button {
 .filme-principal .titulo {
   margin-top: 20px;
   font-size: 3.125rem;
+}
+.filme-principal .container {
+  width: 70%;
+}
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.carrossel-filmes {
+  margin-top: 20px;
 }
