@@ -13,3 +13,5 @@ Foi bem divertido de se fazer, por em prática conhecimentos sobre **HTML5/CSS3/
 ![Netflix Clone](images/netflix-page.png)
 
 Ou entrando pelo link também para melhor visualização: 
+
+<a target="_blank" href="https://joeljsilva.github.io/netflix-dio/">https://joeljsilva.github.io/netflix-dio/</a>
